@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+header {
+  background: #b30000;
+  padding: 1em;
+  text-align: center;
+}
+.title {
+  font-size: 2em;
+  color: #fff;
+}
+#video-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1em;
+  padding: 1em;
+}
+footer {
+  background: #222;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
