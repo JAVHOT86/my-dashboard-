@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="JAVHOT86 - Koleksi video terbaik, tampil modern seperti ThisAV">
-  <meta property="og:title" content="JAVHOT86 - Video Terbaru dan Populer"/>
-  <meta property="og:image" content="https://via.placeholder.com/800x400"/>
-  <meta property="og:url" content="https://username.github.io/JAVHOT86"/>
-  <title>JAVHOT86</title>
+  <title>JAVHOT86 - Video Dashboard</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1 class="title">JAVHOT86</h1>
-    <button id="darkModeToggle">Dark Mode</button>
+    <h1>JAVHOT86</h1>
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Cari video...">
+      <select id="durationFilter">
+        <option value="">Durasi</option>
+        <option value="short">Pendek (&lt;10m)</option>
+        <option value="medium">Sedang (10–30m)</option>
+        <option value="long">Panjang (&gt;30m)</option>
+      </select>
+    </div>
   </header>
-  <main id="video-gallery">
-    <!-- Video thumbnails will load here -->
+
+  <main id="videoGrid" class="grid">
+    <!-- Kotak video akan dimuat oleh JavaScript -->
   </main>
+
   <footer>
-    <p>Join our Telegram: <a href="https://t.me/javhot86" target="_blank">t.me/javhot86</a></p>
+    <p>Gabung grup kami di Telegram: <a href="https://t.me/javhot86" target="_blank">@javhot86</a></p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
